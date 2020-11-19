@@ -12,7 +12,7 @@
   color: #FFF;
   padding: 8px 20px;
   border-radius: 5px;
-	
+
   -webkit-transition: background-color .3s ease-in-out;
   -moz-transition: background-color .3s ease-in-out;
   -o-transition: background-color .3s ease-in-out;
@@ -20,7 +20,7 @@
   transition: background-color .3s ease-in-out;
 }
 .button_lang:hover, .current_lang {
-  background-color: #777;	
+  background-color: #777;
   -webkit-transition: background-color .3s ease-in-out;
   -moz-transition: background-color .3s ease-in-out;
   -o-transition: background-color .3s ease-in-out;
@@ -56,24 +56,27 @@ ul li {
     font-size: 40px;
     font-weight: 700;
     text-decoration: none;
+    width: 100%;
 }
-
+a {
+    text-decoration: none;
+}
 li {
     flex-direction: row;
-    margin: 35px;
+    margin: 25px;
     display: flex;
     justify-content: space-between;
     font-family: 'Amatic SC', cursive;
     font-weight: 800;
-    list-style-type: none;
-    text-decoration: none;
+    width: 80%;
 }
 
 .list {
+    display: flex;
+    flex-direction: column;
     margin: 80px;
     width: 60%;
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
     font-weight: 800;
-    text-decoration: none;
 }
